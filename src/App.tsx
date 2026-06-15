@@ -1,6 +1,7 @@
 import { ExperienceSection } from './components/ExperienceSection/ExperienceSection'
 import { Header } from './components/Header/Header'
 import { Hero } from './components/Hero/Hero'
+import { MenuSection } from './components/MenuSection/MenuSection'
 
 function App() {
 
@@ -10,6 +11,7 @@ function App() {
       <main>
         <Hero />
         <ExperienceSection />
+        <MenuSection />
       </main>
     </>
   )

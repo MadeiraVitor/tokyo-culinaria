@@ -1,4 +1,5 @@
 import { ExperienceSection } from './components/ExperienceSection/ExperienceSection'
+import { Footer } from './components/Footer/Footer'
 import { GallerySection } from './components/GallerySection/GallerySection'
 import { Header } from './components/Header/Header'
 import { Hero } from './components/Hero/Hero'
@@ -17,6 +18,7 @@ function App() {
         <GallerySection />
         <TestimonialsSection />
       </main>
+      <Footer />
     </>
   )
 }

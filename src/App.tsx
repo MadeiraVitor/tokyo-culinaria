@@ -5,6 +5,7 @@ import { Header } from './components/Header/Header'
 import { Hero } from './components/Hero/Hero'
 import { MenuSection } from './components/MenuSection/MenuSection'
 import { TestimonialsSection } from './components/TestimonialsSection/TestimonialsSection'
+import { WhatsappButton } from './components/WhatsappButton/WhatsappButton'
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
         <TestimonialsSection />
       </main>
       <Footer />
+      <WhatsappButton />
     </>
   )
 }
